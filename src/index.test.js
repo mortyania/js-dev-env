@@ -1,7 +1,6 @@
 import {expect} from 'chai';
 import jsdom from 'jsdom';
 import fs from 'fs';
-import courseValue from './index.js';
 
 describe('Our First Test', () => {
 	it('should pass', () => {
@@ -21,8 +20,3 @@ describe('index.html', () => {
 	})
 })
 
-describe('testing course value', () => {
-	it('should be £1,000.00', () => {
-		expect(courseValue).to.equal("1,000.00");
-	})
-})
