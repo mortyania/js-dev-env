@@ -1,6 +1,6 @@
 #test against this version of node.js
 environment:
-	matrix:
+matrix:
 	# node.js
 	- nodejs_version: "6"
 
