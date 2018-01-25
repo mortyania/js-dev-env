@@ -1,4 +1,6 @@
+//import {total} from './index'; //at the moment this break fetch
 import {expect} from 'chai';
+
 import jsdom from 'jsdom';
 import fs from 'fs';
 
@@ -20,3 +22,8 @@ describe('index.html', () => {
 	})
 })
 
+// describe('Summing the albums', () => {
+// 	it('should sum corrently', () => {
+// 		expect(total).to.equal(15);
+// 	});
+// });
