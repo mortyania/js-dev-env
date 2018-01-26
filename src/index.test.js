@@ -1,4 +1,4 @@
-//import {total} from './index'; //at the moment this break fetch
+//import {total} from './index'; //at the moment this break fetch because fetch is browser only
 import {expect} from 'chai';
 
 import jsdom from 'jsdom';
